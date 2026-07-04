@@ -33,8 +33,7 @@ const home: Home = {
     display: false,
     title: (
       <Row gap="12" vertical="center">
-        <strong className="ml-4">{siteData.hero.featured.badge}</strong>{" "}
-        <Line background="brand-alpha-strong" vert height="20" />
+        <strong className="ml-4">{siteData.hero.featured.badge}</strong> <Line background="brand-alpha-strong" vert height="20" />
         <Text marginRight="4" onBackground="brand-medium">
           {siteData.hero.featured.label}
         </Text>

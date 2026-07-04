@@ -1,16 +1,4 @@
-import type {
-  DataStyleConfig,
-  DisplayConfig,
-  EffectsConfig,
-  FontsConfig,
-  MailchimpConfig,
-  ProtectedRoutesConfig,
-  RoutesConfig,
-  SameAsConfig,
-  SchemaConfig,
-  SocialSharingConfig,
-  StyleConfig,
-} from "@/types";
+import type { DataStyleConfig, DisplayConfig, EffectsConfig, FontsConfig, MailchimpConfig, ProtectedRoutesConfig, RoutesConfig, SameAsConfig, SchemaConfig, SocialSharingConfig, StyleConfig } from "@/types";
 import siteData from "./site-data";
 import { home } from "./index";
 
@@ -22,8 +10,8 @@ const routes: RoutesConfig = {
   "/about": true,
   "/work": true,
   "/blog": false,
-  "/gallery": true,
-  "/github": true,
+  "/gallery": false,
+  "/github": false,
 };
 
 const display: DisplayConfig = {
@@ -186,7 +174,7 @@ const mailchimp: MailchimpConfig = {
 
 // default schema data
 const schema: SchemaConfig = {
-  logo: "/images/avatar.jpg",
+  logo: "/images/avatar.png",
   type: "Person",
   name: home.title,
   description: home.description,
@@ -220,17 +208,4 @@ const socialSharing: SocialSharingConfig = {
   },
 };
 
-export {
-  display,
-  mailchimp,
-  routes,
-  protectedRoutes,
-  baseURL,
-  fonts,
-  style,
-  schema,
-  sameAs,
-  socialSharing,
-  effects,
-  dataStyle,
-};
+export { display, mailchimp, routes, protectedRoutes, baseURL, fonts, style, schema, sameAs, socialSharing, effects, dataStyle };

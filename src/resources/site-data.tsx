@@ -1,41 +1,28 @@
 const siteData = {
   meta: {
-    baseURL: "https://umutbayraktar.vercel.app",
-    keywords: [
-      "Umut Bayraktar",
-      "Codeshare",
-      "Full-stack developer",
-      "AI Systems Researcher",
-      "Content Creator",
-      "Community Management",
-      "Social Media Management",
-      "Next.js",
-      "Discord bots",
-      "Digital marketplace",
-    ],
+    baseURL: "https://raehanmukti.vercel.app",
+    keywords: ["Raehan Mukti", "Full-stack developer", "Content Editor", "Social Media Management", "Next.js"],
   },
   person: {
-    firstName: "Umut",
-    lastName: "Bayraktar",
-    name: "Umut Bayraktar",
-    role: "AI Systems Researcher · Full-Stack Developer · Content Creator",
-    avatar: "/images/avatar.jpg",
-    email: "umutbayraktar55@gmail.com",
+    firstName: "Raehan",
+    lastName: "Mukti",
+    name: "Raehan Mukti",
+    role: "Full-Stack Developer · Content Editor",
+    avatar: "/images/avatar.png",
+    email: "raehanmukti03@gmail.com",
     phone: "",
-    website: "https://umutbayraktar.vercel.app",
-    timezone: "Asia/Hanoi",
-    address: "Vietnam",
-    languages: ["Türkçe", "English"],
-    biography:
-      "Professional software developer, AI systems researcher, and content creator with 6+ years of experience in full-stack development, community management, and social media.",
+    website: "https://raehanmukti.vercel.app",
+    timezone: "Asia",
+    address: "Indonesia",
+    languages: ["Indonesia", "English"],
+    biography: "Professional software developer and Content Editor with 3+ years of experience in full-stack development and social media.",
   },
   hero: {
-    headline: "Full-Stack Developer, AI Researcher & Content Creator",
+    headline: "Full-Stack Developer & Content Editor",
     subline: (
       <>
-        6+ years building scalable platforms, managing communities, and creating content across
-        Instagram, YouTube, and TikTok. Founder of <strong>Codeshare Technology</strong> — shipping
-        products used by millions worldwide.
+        Experienced in multimedia production, digital graphic design, and creating dynamic visual content using Adobe Premiere Pro, After Effects, and Illustrator. <strong>Professional Multimedia Specialist</strong> executing diverse
+        creative projects for multiple companies.
       </>
     ),
     featured: {
@@ -64,117 +51,67 @@ const siteData = {
     description: "Shipping notes from Codeshare, Beatra, and creator studio automations.",
   },
   social: [
-    { name: "Instagram", icon: "instagram", link: "https://instagram.com/umutxyp" },
-    { name: "YouTube", icon: "youtube", link: "https://youtube.com/@umutxyp" },
-    { name: "TikTok", icon: "tiktok", link: "https://tiktok.com/@umutxyp" },
-    { name: "umutxyp", icon: "discord", link: "https://discord.gg/FnU3Whr9ef" },
-    { name: "GitHub", icon: "github", link: "https://github.com/umutxyp" },
-    { name: "LinkedIn", icon: "linkedin", link: "https://linkedin.com/in/umutxyp" },
-    { name: "Twitter", icon: "twitter", link: "https://twitter.com/devbayraktar" },
-    { name: "Telegram", icon: "telegram", link: "https://t.me/umutxyp" },
-    { name: "Facebook", icon: "facebook", link: "https://facebook.com/umutxyp" },
+    { name: "Instagram", icon: "instagram", link: "https://instagram.com/raehanmukti__" },
+    { name: "GitHub", icon: "github", link: "https://github.com/mukti2225" },
+    { name: "LinkedIn", icon: "linkedin", link: "https://linkedin.com/in/raehan-mukti" },
+    { name: "Telegram", icon: "telegram", link: "https://t.me/raehanmukti" },
   ],
   about: {
     introTitle: "Who I am",
     introDescription:
-      "I am a professional software developer, AI systems researcher, and content creator. For over 6 years I have been deeply involved in community management, social media management, and full-stack software development — building and growing platforms from the ground up. I produce content across Instagram, YouTube, and TikTok, reaching 44K+ followers, while simultaneously architecting scalable digital products used by millions. My work spans Discord ecosystems, digital marketplaces, AI-powered tools, and real-time infrastructure.",
+      "I am a professional multimedia specialist, visual content creator, and video editor. I have been deeply involved in multimedia production, post-production, and digital graphic design creating innovative visual experiences from the ground up. I produce high-quality media utilizing industry standard software like Adobe Premiere Pro, After Effects, Illustrator, and Photoshop, while simultaneously partnering with multiple companies to execute diverse professional projects.",
     experiences: [
       {
-        company: "Codeshare Technology",
-        timeframe: "Jan 2019 - Present",
-        role: "Founder & CEO",
+        company: "Wink Of Winner",
+        timeframe: "Feb 2026 - May 2026",
+        role: "Editor Internship",
         achievements: [
-          "Built a scalable end-to-end digital product marketplace for developers, content creators, and digital entrepreneurs — covering code projects, game keys, software licenses, and creator-exclusive assets.",
-          "Implemented a verified seller system, SSL-secured payments, buyer protection, and YouTube API integration for subscriber-exclusive products.",
-          "Grew the platform to 15K+ active users and 1,000+ digital listings across global markets.",
-        ],
-        images: [],
-        link: "https://codeshare.me",
-      },
-      {
-        company: "Beatra",
-        timeframe: "Oct 2025 - Present",
-        role: "Founder & Lead Developer",
-        achievements: [
-          "Built a modern multi-platform music streaming ecosystem operating across Discord, web, and desktop — supporting YouTube, Spotify, SoundCloud, and more.",
-          "Scaled to 16,000+ Discord servers and 1.2M+ users with real-time synchronized playback, audio filters, analytics, and a privacy-first open-source infrastructure.",
-          "Developed Beatra Wrapped, server stats pages, user profile pages, and a premium tier with 24/7 mode and advanced queue management.",
-        ],
-        images: [],
-        link: "https://beatra.app",
-      },
-      {
-        company: "Dotrai",
-        timeframe: "Mar 2025 - Present",
-        role: "Founder",
-        achievements: [
-          "Founded and lead Dotrai, a new AI-focused venture based in Antalya, Turkey.",
+          "Edited and produced engaging video content and motion graphics for digital campaigns, optimizing formats across multiple social media platforms to maximize viewer retention.",
+          "Designed compelling visual assets, including promotional materials, custom thumbnails, and digital marketing collateral, while maintaining strict brand consistency.",
+          "Collaborated with cross-functional teams to conceptualize and deliver high-quality multimedia projects, contributing to increased audience engagement and overall brand visibility.",
         ],
         images: [],
         link: "",
       },
       {
-        company: "Vip Transfer Turkey",
-        timeframe: "Sep 2021 - Present",
-        role: "Web Developer & Co-Founder",
+        company: "Akses Education Center",
+        timeframe: "May 2025 - Aug 2025",
+        role: "Publication Internship",
         achievements: [
-          "Designed and built the full-stack platform for a premium VIP airport and hotel transfer service covering Antalya, Belek, Side, Kemer, and Alanya.",
-          "Developed booking workflows, real-time service integrations, multilingual content, and SEO-optimized pages powering significant monthly revenue.",
-          "Led digital marketing strategy, analytics, and international audience growth across Turkish and European markets.",
+          "Created, edited, and managed content for the company’s social media accounts.",
+          "Produced high-quality design and video content to support promotional activities.",
+          "Assisted in copywriting for content development, ensuring clarity, creativity, and brand consistency.",
         ],
         images: [],
-        link: "https://viptransfertr.com",
+        link: "",
       },
       {
-        company: "DNZ Geri Dönüşüm",
-        timeframe: "Jan 2025 - Present",
-        role: "Web Developer",
+        company: "Bienti Media",
+        timeframe: "Feb 2025 - May 2025",
+        role: "Video Editor Internship",
         achievements: [
-          "Built the digital presence for a sustainable recycling and waste management company offering industrial scrap collection, metal/plastic/paper recycling, and on-site evaluations.",
-          "Implemented service pages, dynamic scrap pricing based on market values, and logistics tooling supporting building demolition and factory dismantling operations.",
+          "Edited and produced professional video content to support the company’s promotional and branding.",
+          "Designed video thumbnails to optimize visual appeal and viewer engagement.",
+          "Collaborated with the creative team to ensure alignment with brand identity and project objectives.",
         ],
         images: [],
-        link: "https://dnzgeridonusum.com",
-      },
-      {
-        company: "Sylon",
-        timeframe: "2026 - Present",
-        role: "Founder & Lead Developer",
-        achievements: [
-          "Built an AI-powered Discord moderation bot with anti-spam, ad detection, server guard, ticket system, and welcome automation.",
-          "Serving 21+ servers and 20K+ users with 99.9% uptime across all shards.",
-        ],
-        images: [],
-        link: "https://sylon.app",
-      },
-      {
-        company: "MCSTAT",
-        timeframe: "Dec 2025 - Present",
-        role: "Founder & Lead Developer",
-        achievements: [
-          "Built a real-time Minecraft server discovery platform tracking 7,000+ servers with live player counts, vote rankings, uptime history, leaderboards, and detailed server profiles.",
-          "Platform monitors 574K+ concurrent players and serves as a global discovery engine for the Minecraft community.",
-        ],
-        images: [],
-        link: "https://mcstat.org",
+        link: "",
       },
     ],
     studies: [
       {
-        name: "Electrical & Electronic High Voltage",
-        description:
-          "Kepez Vocational and Technical Anatolian High School - four-year program focused on circuit design, safety, and energy transmission.",
+        name: "Politeknik Negeri Media Kreatif (Polimedia) - (D4) Multimedia Engineering",
+        description: "A four year applied bachelor's program focused on multimedia production, visual content creation, digital graphic design, and advanced video editing using industry-standard software.",
       },
       {
-        name: "Web Design and Coding (Associate)",
-        description:
-          "Ankara University - specializing in modern web tech, UI/UX, and AI-assisted front-end projects.",
+        name: "SMA Arif Rahman Hakim - (High School) Science Program",
+        description: "High school science track providing a strong foundation in mathematics, physics, and analytical problem solving, serving as a comprehensive preparation for advanced studies in engineering and technology.",
       },
     ],
     technical: [
       {
         title: "Frontend Development",
-        description: "95% proficiency",
+        description: "85% proficiency",
         images: [],
         tags: [
           { name: "React.js", icon: "react" },
@@ -188,21 +125,16 @@ const siteData = {
       },
       {
         title: "Backend Development",
-        description: "90% proficiency",
+        description: "70% proficiency",
         images: [],
-        tags: [
-          { name: "Node.js", icon: "nodejs" },
-          { name: "Express.js", icon: "javascript" },
-          { name: "Socket.IO", icon: "javascript" },
-          { name: "Go", icon: "code" },
-        ],
+        tags: [{ name: "Node.js", icon: "nodejs" }],
       },
       {
         title: "Database & Data",
         description: "85% proficiency",
         images: [],
         tags: [
-          { name: "MongoDB", icon: "database" },
+          { name: "MySQL", icon: "database" },
           { name: "PostgreSQL", icon: "database" },
         ],
       },
@@ -211,52 +143,29 @@ const siteData = {
         description: "90% proficiency",
         images: [],
         tags: [
-          { name: "Git", icon: "github" },
           { name: "GitHub", icon: "github" },
-          { name: "Linux", icon: "terminal" },
-          { name: "Windows", icon: "terminal" },
           { name: "Vercel", icon: "vercel" },
-          { name: "Heroku", icon: "code" },
-          { name: "Glitch", icon: "code" },
+          { name: "Figma", icon: "" },
+          { name: "Adobe Creative Cloud", icon: "" },
         ],
       },
       {
-        title: "Community & Social Media",
-        description: "6+ years experience",
+        title: "Corporate & Social Media Management",
+        description: "3+ years experience",
         images: [],
         tags: [
-          { name: "Community Management", icon: "person" },
           { name: "Social Media Management", icon: "person" },
-          { name: "Content Creation", icon: "person" },
-          { name: "Digital Marketing", icon: "person" },
-          { name: "Project Management", icon: "person" },
-          { name: "Discord", icon: "discord" },
           { name: "Instagram", icon: "instagram" },
-          { name: "YouTube", icon: "youtube" },
           { name: "TikTok", icon: "tiktok" },
         ],
       },
     ],
   },
-  gallery: [
-    "/images/projects/codeshare.png",
-    "/images/projects/beatra.png",
-    "/images/projects/viptransfertr.png",
-    "/images/projects/dnzgeridonusum.png",
-    "/images/projects/umutxyp.jpg",
-  ],
+  gallery: [""],
   github: {
-    username: "umutxyp",
-    highlight: [
-      "Codeshare",
-      "Beatra",
-      "MusicBot",
-      "VipTransferTR",
-      "DNZGeriDonusum",
-      "CreatorStudioAutomation",
-    ],
-    description:
-      "Open-sourcing Discord bots, automation pipelines, and production-ready SaaS starters used inside Codeshare.",
+    username: "mukti2225",
+    highlight: ["VideoEditor", "GraphicDesigner", "FullStackDeveloper"],
+    description: "A collection of my personal and professional projects, showcasing my skills in multimedia production, content creation, and full-stack development.",
   },
 };
 

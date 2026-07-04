@@ -22,26 +22,9 @@ export const Footer = () => {
         }}
       >
         <Text variant="body-default-s" onBackground="neutral-weak">
-          © {currentYear}{" "}
-          <a href="https://codeshare.me" style={{ color: "inherit" }}>
-            Codeshare
-          </a>
+          © {currentYear} Personal Web
         </Text>
-        <Row gap="16">
-          {social.map(
-            (item) =>
-              item.link && (
-                <IconButton
-                  key={item.name}
-                  href={item.link}
-                  icon={item.icon}
-                  tooltip={item.name}
-                  size="s"
-                  variant="ghost"
-                />
-              ),
-          )}
-        </Row>
+        <Row gap="16">{social.map((item) => item.link && <IconButton key={item.name} href={item.link} icon={item.icon} tooltip={item.name} size="s" variant="ghost" />)}</Row>
       </Row>
       <Row height="80" hide s={{ hide: false }} />
     </Row>
